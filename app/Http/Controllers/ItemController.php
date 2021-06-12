@@ -16,7 +16,7 @@ class ItemController extends Controller
      */
     public function index()
     {
-        dd(Auth::user());
+        dd(Auth::user()->ConnectedAccounts());
         $items = Item::where('user_id', Auth::user()->id)->get();
         return Inertia::render('Feed/Index', ['items'=>$items]);
     }
