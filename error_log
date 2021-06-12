@@ -1,0 +1,18 @@
+[12-Jun-2021 09:37:18 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:37:18 UTC] PHP Warning:  require(/home/ordermarket/public_html/selfiewall/vendor/autoload.php): failed to open stream: No such file or directory in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:37:18 UTC] PHP Fatal error:  require(): Failed opening required '/home/ordermarket/public_html/selfiewall/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:39:58 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:39:58 UTC] PHP Warning:  require(/home/ordermarket/public_html/selfiewall/vendor/autoload.php): failed to open stream: No such file or directory in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:39:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/ordermarket/public_html/selfiewall/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:40:14 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:40:14 UTC] PHP Warning:  require(/home/ordermarket/public_html/selfiewall/vendor/autoload.php): failed to open stream: No such file or directory in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:40:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ordermarket/public_html/selfiewall/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:43:12 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:43:12 UTC] PHP Warning:  require(/home/ordermarket/public_html/selfiewall/vendor/autoload.php): failed to open stream: No such file or directory in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:43:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/ordermarket/public_html/selfiewall/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordermarket/public_html/selfiewall/artisan on line 18
+[12-Jun-2021 09:44:20 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:44:29 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:44:33 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:44:40 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:46:41 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Jun-2021 09:51:54 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
