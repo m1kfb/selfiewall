@@ -17,7 +17,7 @@ class InstagramScope implements GeneratesProviderRedirect
     public function generate(string $provider)
     {
         return match ($provider) {
-            'instagram' => Socialite::driver($provider)->scope(['*'])->redirect(),
+            'instagram' => Socialite::driver($provider)->with(['scope'=>'*'])->redirect(),
             default => Socialite::driver($provider)->redirect(),
         };
     }
