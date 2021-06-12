@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Actions\InstagramScope;
 use App\Actions\Socialstream\CreateConnectedAccount;
 use App\Actions\Socialstream\CreateUserFromProvider;
 use App\Actions\Socialstream\HandleInvalidState;
@@ -37,6 +38,6 @@ class SocialstreamServiceProvider extends ServiceProvider
         Socialstream::updateConnectedAccountsUsing(UpdateConnectedAccount::class);
         Socialstream::setUserPasswordsUsing(SetUserPassword::class);
         Socialstream::handlesInvalidStateUsing(HandleInvalidState::class);
-        Socialstream::generatesProvidersRedirectsUsing(GenerateRedirectForProvider::class);
+        Socialstream::generatesProvidersRedirectsUsing(InstagramScope::class);
     }
 }
