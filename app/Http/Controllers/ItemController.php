@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Item;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 
-class InstagramFeedController extends Controller
+class ItemController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +16,9 @@ class InstagramFeedController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Instagram/Form');
+        dd(Auth::user());
+        $items = Item::where('user_id', Auth::user()->id)->get();
+        return Inertia::render('Feed/Index', ['items'=>$items]);
     }
 
     /**
@@ -41,21 +45,21 @@ class InstagramFeedController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Item $item)
     {
-        $
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Item $item)
     {
         //
     }
@@ -64,10 +68,10 @@ class InstagramFeedController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Item $item)
     {
         //
     }
@@ -75,10 +79,10 @@ class InstagramFeedController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Item $item)
     {
         //
     }
